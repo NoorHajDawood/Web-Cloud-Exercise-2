@@ -93,18 +93,15 @@ nav a:hover {
     display: block;
 }
 
-.imgSection {
-    margin-top: 40px;
-    margin-bottom: 63px;
-    /* display: flex; */
-}
-
 .imgColumn {
     margin-right: 30px;
-    border-radius: 8px;
     width: 350px;
     height: 249px;
     text-align: center;
+}
+
+.mainSection1 .imgColumn img {
+    border-radius: 8px;
 }
 
 .mainSection1 .imgColumn a {
@@ -130,16 +127,16 @@ nav a:hover {
 
 .mainSection2 h1 {
     margin-bottom: 56px;
+    font-weight: 600;
+    font-size: 36px;
 }
 
 .mainSection2 .imgColumn {
     display: inline-block;
-    border-radius: 8px;
     background-color: #FFFFFF;
     width: 255px;
     height: 226px;
     color: #101010;
-    /* text-align: center; */
 }
 
 .mainSection2 .imgColumn img {
@@ -149,6 +146,13 @@ nav a:hover {
 .mainSection2 .imgColumn h3 {
     margin-top: 12px;
     margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.mainSection2 .imgColumn p {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 footer {
