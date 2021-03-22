@@ -102,9 +102,11 @@ header button {
 .mainSection1 .imgColumn a {
     display: inline-block;
     color: #ED4C5C;
+    font-size: 14px;
     font-weight: bold;
     margin-left: -350px;
-    vertical-align: 15px;
+    vertical-align: 14px;
+    border-style: none;
     border-radius: 8px;
     background-color: #FFFFFF;
     width: 350px;
