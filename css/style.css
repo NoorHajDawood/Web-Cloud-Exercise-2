@@ -9,6 +9,10 @@ body {
 
 header {
     width: 100%;
+    background-color: #ED4C5C;
+    padding-top: 59px;
+    padding-left: 50px;
+    padding-bottom: 55px;
 }
 
 header,
@@ -30,17 +34,7 @@ a {
     color: #FFFFFF;
     font-size: 18px;
     display: block;
-}
-
-.topSection {
-    background-color: #ED4C5C;
-    padding-top: 59px;
-    padding-left: 50px;
-    padding-bottom: 55px;
-}
-
-nav {
-    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 nav a {
@@ -53,7 +47,7 @@ nav a:hover {
     color: #adaaaa;
 }
 
-.topSection img {
+header img {
     display: block;
     margin-top: 45px;
     margin-left: 40px;
@@ -61,7 +55,7 @@ nav a:hover {
     border-radius: 15px;
 }
 
-.topSection button {
+header button {
     width: 160px;
     height: 50px;
     border-style: none;
@@ -98,6 +92,7 @@ nav a:hover {
     width: 350px;
     height: 249px;
     text-align: center;
+    font-size: 0px;
 }
 
 .mainSection1 .imgColumn img {
@@ -105,11 +100,11 @@ nav a:hover {
 }
 
 .mainSection1 .imgColumn a {
+    display: inline-block;
     color: #ED4C5C;
     font-weight: bold;
-    margin-left: -354px;
+    margin-left: -350px;
     vertical-align: 15px;
-    display: inline-block;
     border-radius: 8px;
     background-color: #FFFFFF;
     width: 350px;
@@ -132,11 +127,11 @@ nav a:hover {
 }
 
 .mainSection2 .imgColumn {
-    display: inline-block;
     background-color: #FFFFFF;
     width: 255px;
     height: 226px;
     color: #101010;
+    display: inline-block;
 }
 
 .mainSection2 .imgColumn img {
