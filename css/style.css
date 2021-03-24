@@ -11,7 +11,7 @@ header {
     width: 100%;
     background-color: #ED4C5C;
     padding-top: 59px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     padding-bottom: 55px;
 }
 
@@ -35,6 +35,11 @@ a {
     font-size: 18px;
     display: block;
     margin-bottom: 48px;
+    margin-left: 50px;
+}
+
+nav {
+    margin-left: 50px;
 }
 
 nav a {
@@ -50,7 +55,7 @@ nav a:hover {
 header img {
     display: block;
     margin-top: 45px;
-    margin-left: 40px;
+    margin-left: 90px;
     margin-bottom: 45px;
     border-radius: 15px;
 }
@@ -63,6 +68,7 @@ header button {
     background-color: #FFFFFF;
     color: #ED4C5C;
     font-weight: 600;
+    margin-left: 50px;
 }
 
 .mainSection1 {
