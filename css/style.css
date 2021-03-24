@@ -129,7 +129,7 @@ header button {
 }
 
 .mainSection2 h1 {
-    margin-bottom: 56px;
+    /* margin-bottom: 56px; */
     font-weight: 600;
     font-size: 36px;
 }
@@ -140,6 +140,7 @@ header button {
     height: 226px;
     color: #101010;
     display: inline-block;
+    margin-top: 56px;
 }
 
 .mainSection2 .imgColumn img {
